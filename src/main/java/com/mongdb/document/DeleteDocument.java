@@ -1,4 +1,4 @@
-package com.mongdb;
+package com.mongdb.document;
 
 import com.mongodb.Block;
 import com.mongodb.MongoClient;

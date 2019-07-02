@@ -1,9 +1,12 @@
-package com.mongdb;
+package com.mongdb.document;
 
 import com.mongodb.Block;
 import com.mongodb.MongoClient;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
+import com.mongodb.client.model.CreateCollectionOptions;
+import com.mongodb.client.model.Filters;
+import com.mongodb.client.model.ValidationOptions;
 import org.bson.Document;
 import org.junit.Test;
 
@@ -35,6 +38,24 @@ public class UpdateDocument {
 
         mycolCollection.find().forEach(printBlock);
 
+
+    }
+
+    /**
+     * Document Validation
+     */
+    @Test
+    public void testDocVal() {
+        // To connect to mongodb server
+        MongoClient mongoClient = new MongoClient("localhost", 27017);
+
+        // Now connect to your databases
+        MongoDatabase db = mongoClient.getDatabase("test");
+
+        ValidationOptions collOptions = new ValidationOptions()
+                .validator(Filters.or(Filters.exists("email"), Filters.exists("iphone")));
+
+        db.createCollection("contacts", new CreateCollectionOptions().validationOptions(collOptions));
 
     }
 
