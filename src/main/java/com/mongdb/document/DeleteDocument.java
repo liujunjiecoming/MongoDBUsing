@@ -1,7 +1,7 @@
 package com.mongdb.document;
 
+import com.mongdb.utils.CommonUtil;
 import com.mongodb.Block;
-import com.mongodb.MongoClient;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 import org.bson.Document;
@@ -19,12 +19,8 @@ import static com.mongodb.client.model.Filters.eq;
 public class DeleteDocument {
 
     @Test
-    public void delete() {
-        // To connect to mongodb server
-        MongoClient mongoClient = new MongoClient("localhost", 27017);
-
-        // Now connect to your databases
-        MongoDatabase db = mongoClient.getDatabase("test");
+    public void deleteOne() {
+        MongoDatabase db = CommonUtil.connectMongoDB("test");
 
         MongoCollection<Document> collection = db.getCollection("testcol");
 
@@ -37,6 +33,20 @@ public class DeleteDocument {
 
 
     }
+
+    @Test
+    public void deleteMany() {
+        MongoDatabase db = CommonUtil.connectMongoDB("test");
+        MongoCollection<Document> collection = db.getCollection("restaurants");
+
+        collection.find().forEach(printBlock);
+        System.out.println("======================分割线==========================");
+
+        collection.deleteMany(eq("stars", 10));
+
+        collection.find().forEach(printBlock);
+    }
+
 
     static Block<Document> printBlock = new Block<Document>() {
         @Override
