@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96cc2f21-869a-432e-a9ce-2240bc73f6f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mongdb/readAndWrite/ReadOptions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mongdb/readAndWrite/WriteOptions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/jj/InsertDocumentExampleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/jj/MongoIterableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mongdb/agg/AggregationUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mongdb/changstream/ChangeStreamUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mongdb/commands/RunCommandsUse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mongdb/document/DeleteDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mongdb/document/DeleteDocument.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/jj/AppTest.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,41 +40,38 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mongdb/readAndWrite/WriteOptions.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mongdb/changstream/ChangeStreamUse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="59" column="76" selection-start-line="59" selection-start-column="65" selection-end-line="59" selection-end-column="76" />
+            <state relative-caret-position="472">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1564#1725#0" expanded="true" />
-                <element signature="e#1724#1725#0" expanded="true" />
+                <element signature="e#382#603#0" expanded="true" />
+                <element signature="e#602#603#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mongdb/document/DeleteDocument.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mongdb/commands/RunCommandsUse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="49" column="30" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
+            <state relative-caret-position="156">
+              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1079#1240#0" expanded="true" />
-                <element signature="e#1239#1240#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/jj/InsertDocumentExampleTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mongdb/readAndWrite/WriteOptions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="53" column="83" lean-forward="true" selection-start-line="48" selection-start-column="24" selection-end-line="53" selection-end-column="83" />
+            <state relative-caret-position="297">
+              <caret line="47" column="76" selection-start-line="47" selection-start-column="65" selection-end-line="47" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1983#1993#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -127,6 +121,9 @@
         <option value="$PROJECT_DIR$/src/test/java/com/jj/InsertDocumentExampleTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mongdb/readAndWrite/WriteOptions.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mongdb/document/DeleteDocument.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mongdb/agg/AggregationUse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mongdb/changstream/ChangeStreamUse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mongdb/commands/RunCommandsUse.java" />
       </list>
     </option>
   </component>
@@ -215,17 +212,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="mongdb" type="462c0819:PsiDirectoryNode" />
-              <item name="document" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MongoDBUsing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MongoDBUsing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mongdb" type="462c0819:PsiDirectoryNode" />
-              <item name="readAndWrite" type="462c0819:PsiDirectoryNode" />
+              <item name="commands" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MongoDBUsing" type="b2602c69:ProjectViewProjectNode" />
@@ -261,8 +248,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="CatdeaLogs" />
       <pane id="Scope" />
+      <pane id="CatdeaLogs" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -285,34 +272,50 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WriteOptions.replaceOne">
-    <configuration name="InsertDocumentExampleTest.insertMany" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RunCommandsUse.testRun">
+    <configuration name="AggregationUse.testSimple" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MongoDBUsing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jj.*" />
+          <option name="PATTERN" value="com.mongdb.agg.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.jj" />
-      <option name="MAIN_CLASS_NAME" value="com.jj.InsertDocumentExampleTest" />
-      <option name="METHOD_NAME" value="insertMany" />
+      <option name="PACKAGE_NAME" value="com.mongdb.agg" />
+      <option name="MAIN_CLASS_NAME" value="com.mongdb.agg.AggregationUse" />
+      <option name="METHOD_NAME" value="testSimple" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertDocumentExampleTest.insertOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ChangeStreamUse.testChangeStream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MongoDBUsing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jj.*" />
+          <option name="PATTERN" value="com.mongdb.changstream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.jj" />
-      <option name="MAIN_CLASS_NAME" value="com.jj.InsertDocumentExampleTest" />
-      <option name="METHOD_NAME" value="insertOne" />
+      <option name="PACKAGE_NAME" value="com.mongdb.changstream" />
+      <option name="MAIN_CLASS_NAME" value="com.mongdb.changstream.ChangeStreamUse" />
+      <option name="METHOD_NAME" value="testChangeStream" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunCommandsUse.testRun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MongoDBUsing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mongdb.commands.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mongdb.commands" />
+      <option name="MAIN_CLASS_NAME" value="com.mongdb.commands.RunCommandsUse" />
+      <option name="METHOD_NAME" value="testRun" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -329,22 +332,6 @@
       <option name="PACKAGE_NAME" value="com.mongdb.readAndWrite" />
       <option name="MAIN_CLASS_NAME" value="com.mongdb.readAndWrite.WriteOptions" />
       <option name="METHOD_NAME" value="replaceOne" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WriteOptions.updateDoc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MongoDBUsing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mongdb.readAndWrite.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.mongdb.readAndWrite" />
-      <option name="MAIN_CLASS_NAME" value="com.mongdb.readAndWrite.WriteOptions" />
-      <option name="METHOD_NAME" value="updateDoc" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -368,11 +355,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RunCommandsUse.testRun" />
+        <item itemvalue="JUnit.ChangeStreamUse.testChangeStream" />
+        <item itemvalue="JUnit.AggregationUse.testSimple" />
         <item itemvalue="JUnit.WriteOptions.replaceOne" />
         <item itemvalue="JUnit.WriteOptions.updateMul" />
-        <item itemvalue="JUnit.InsertDocumentExampleTest.insertMany" />
-        <item itemvalue="JUnit.WriteOptions.updateDoc" />
-        <item itemvalue="JUnit.InsertDocumentExampleTest.insertOne" />
       </list>
     </recent_temporary>
   </component>
@@ -390,7 +377,9 @@
       <workItem from="1561961692256" duration="2940000" />
       <workItem from="1561968218706" duration="5957000" />
       <workItem from="1562028671374" duration="11267000" />
-      <workItem from="1562114932150" duration="16034000" />
+      <workItem from="1562114932150" duration="19148000" />
+      <workItem from="1562145094660" duration="1053000" />
+      <workItem from="1562200471362" duration="4634000" />
     </task>
     <task id="LOCAL-00001" summary="简单的增删改，（TODO）查">
       <created>1561973654364</created>
@@ -413,43 +402,50 @@
       <option name="project" value="LOCAL" />
       <updated>1562123566085</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1，add读写操作; 2，add一些文档用例">
+      <created>1562138979621</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1562138979621</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ReadOptions_sort - 2019.07.03 at 13h 50m 17s.xml">
-      <configuration name="ReadOptions.sort" configurationId="JUnit" />
+    <history-entry file="ChangeStreamUse_testChangeStream - 2019.07.04 at 09h 17m 02s.xml">
+      <configuration name="ChangeStreamUse.testChangeStream" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MongoIterableTest_test - 2019.07.03 at 14h 00m 19s.xml">
-      <configuration name="MongoIterableTest.test" configurationId="JUnit" />
+    <history-entry file="ChangeStreamUse_testChangeStream - 2019.07.04 at 09h 17m 20s.xml">
+      <configuration name="ChangeStreamUse.testChangeStream" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WriteOptions_insertOne - 2019.07.03 at 14h 36m 53s.xml">
-      <configuration name="WriteOptions.insertOne" configurationId="JUnit" />
+    <history-entry file="RunCommandsUse_testRun - 2019.07.04 at 10h 42m 42s.xml">
+      <configuration name="RunCommandsUse.testRun" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InsertDocumentExampleTest_insertOne - 2019.07.03 at 14h 40m 09s.xml">
-      <configuration name="InsertDocumentExampleTest.insertOne" configurationId="JUnit" />
+    <history-entry file="RunCommandsUse_testRun - 2019.07.04 at 10h 43m 35s.xml">
+      <configuration name="RunCommandsUse.testRun" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InsertDocumentExampleTest_insertMany - 2019.07.03 at 14h 40m 13s.xml">
-      <configuration name="InsertDocumentExampleTest.insertMany" configurationId="JUnit" />
+    <history-entry file="RunCommandsUse_testRun - 2019.07.04 at 10h 44m 12s.xml">
+      <configuration name="RunCommandsUse.testRun" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WriteOptions_updateDoc - 2019.07.03 at 14h 50m 45s.xml">
-      <configuration name="WriteOptions.updateDoc" configurationId="JUnit" />
+    <history-entry file="RunCommandsUse_testRun - 2019.07.04 at 10h 52m 31s.xml">
+      <configuration name="RunCommandsUse.testRun" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InsertDocumentExampleTest_insertMany - 2019.07.03 at 14h 54m 55s.xml">
-      <configuration name="InsertDocumentExampleTest.insertMany" configurationId="JUnit" />
+    <history-entry file="RunCommandsUse_testRun - 2019.07.04 at 10h 52m 44s.xml">
+      <configuration name="RunCommandsUse.testRun" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WriteOptions_updateMul - 2019.07.03 at 14h 57m 22s.xml">
-      <configuration name="WriteOptions.updateMul" configurationId="JUnit" />
+    <history-entry file="RunCommandsUse_testRun - 2019.07.04 at 10h 52m 55s.xml">
+      <configuration name="RunCommandsUse.testRun" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WriteOptions_updateMul - 2019.07.03 at 14h 58m 06s.xml">
-      <configuration name="WriteOptions.updateMul" configurationId="JUnit" />
+    <history-entry file="RunCommandsUse_testRun - 2019.07.04 at 10h 53m 04s.xml">
+      <configuration name="RunCommandsUse.testRun" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WriteOptions_replaceOne - 2019.07.03 at 15h 09m 37s.xml">
-      <configuration name="WriteOptions.replaceOne" configurationId="JUnit" />
+    <history-entry file="RunCommandsUse_testRun - 2019.07.04 at 10h 53m 45s.xml">
+      <configuration name="RunCommandsUse.testRun" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37321000" />
+    <option name="totallyTimeSpent" value="46122000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -464,7 +460,7 @@
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24946581" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24946581" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -473,7 +469,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3288889" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3288889" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -505,7 +501,8 @@
     <MESSAGE value="简单的增删改，（TODO）查" />
     <MESSAGE value="创建，删除集合collection" />
     <MESSAGE value="add如何创建不同的索引" />
-    <option name="LAST_COMMIT_MESSAGE" value="add如何创建不同的索引" />
+    <MESSAGE value="1，add读写操作; 2，add一些文档用例" />
+    <option name="LAST_COMMIT_MESSAGE" value="1，add读写操作; 2，add一些文档用例" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver-sync/3.10.2/mongodb-driver-sync-3.10.2.jar!/com/mongodb/client/MongoDatabase.class">
@@ -664,13 +661,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongo-java-driver/3.10.2/mongo-java-driver-3.10.2-sources.jar!/org/bson/Document.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/experimental/categories/Categories.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2304">
@@ -685,13 +675,6 @@
         </state>
       </provider>
       <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongo-java-driver/3.10.2/mongo-java-driver-3.10.2-sources.jar!/com/mongodb/client/model/Projections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="65" column="23" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
-        </state>
-      </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongo-java-driver/3.10.2/mongo-java-driver-3.10.2-sources.jar!/com/mongodb/client/MongoCursor.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -718,18 +701,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mongdb/readAndWrite/ReadOptions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1944">
-          <caret line="108" column="5" lean-forward="true" selection-start-line="108" selection-start-column="5" selection-end-line="108" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#286#447#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -790,26 +761,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mongdb/readAndWrite/WriteOptions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="59" column="76" selection-start-line="59" selection-start-column="65" selection-end-line="59" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1564#1725#0" expanded="true" />
-            <element signature="e#1724#1725#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mongdb/document/DeleteDocument.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="49" column="30" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
+        <state relative-caret-position="138">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1079#1240#0" expanded="true" />
             <element signature="e#1239#1240#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongo-java-driver/3.10.2/mongo-java-driver-3.10.2-sources.jar!/com/mongodb/client/MongoClients.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongo-java-driver/3.10.2/mongo-java-driver-3.10.2-sources.jar!/com/mongodb/client/model/Aggregates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="170" column="58" selection-start-line="170" selection-start-column="49" selection-end-line="170" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongo-java-driver/3.10.2/mongo-java-driver-3.10.2-sources.jar!/com/mongodb/client/model/Projections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="177" column="23" selection-start-line="177" selection-start-column="23" selection-end-line="177" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongo-java-driver/3.10.2/mongo-java-driver-3.10.2-sources.jar!/com/mongodb/client/model/Accumulators.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mongdb/agg/AggregationUse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mongdb/readAndWrite/ReadOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="812">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mongdb/readAndWrite/WriteOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="47" column="76" selection-start-line="47" selection-start-column="65" selection-end-line="47" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mongdb/changstream/ChangeStreamUse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#382#603#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongo-java-driver/3.10.2/mongo-java-driver-3.10.2-sources.jar!/org/bson/Document.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="69" column="11" selection-start-line="69" selection-start-column="11" selection-end-line="69" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongo-java-driver/3.10.2/mongo-java-driver-3.10.2-sources.jar!/com/mongodb/client/MongoDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="134" column="15" selection-start-line="134" selection-start-column="7" selection-end-line="134" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mongdb/commands/RunCommandsUse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
